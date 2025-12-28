@@ -37,11 +37,7 @@ System-level prompt control for consistent behavior
 
 🧠 Conversation Memory , Stores chat history in a JSON file, Reloads previous conversations , Option to clear memory instantly from the UI ,Chat-style interface
 ## Sidebar with:
-Assistant role selector
-Memory reset button
-Dark / Light mode toggle
-Custom animated typing text (SALVIN branding)
-Themed UI (Dark & Light modes)
+Assistant role selector, Memory reset button, Dark / Light mode toggle, Custom animated typing text (SALVIN branding), Themed UI (Dark & Light modes)
 
 ## 🛡 Security & Best Practices
 

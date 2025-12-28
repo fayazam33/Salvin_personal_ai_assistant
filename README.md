@@ -1,4 +1,5 @@
 ## 🧠 SALVIN – Personal AI Assistant
+### 👨‍💻 Author- Fayaz Ali Muktadir
 SALVIN is a Personal AI Assistant built using Python, Streamlit, and Google Gemini API, designed with Object-Oriented Programming (OOP) principles.
 It acts as a smart digital companion capable of assisting users in learning, coding, and career guidance, while maintaining conversation memory and offering a modern interactive UI.
 
@@ -34,27 +35,13 @@ Role-based assistance:
 
 System-level prompt control for consistent behavior
 
-🧠 Conversation Memory
-
-# Stores chat history in a JSON file
-
-# Reloads previous conversations
-
-# Option to clear memory instantly from the UI
-
-# Chat-style interface
-
-# Sidebar with:
-
-# Assistant role selector
-
-# Memory reset button
-
-# Dark / Light mode toggle
-
-# Custom animated typing text (SALVIN branding)
-
-# Themed UI (Dark & Light modes)
+🧠 Conversation Memory , Stores chat history in a JSON file, Reloads previous conversations , Option to clear memory instantly from the UI ,Chat-style interface
+## Sidebar with:
+Assistant role selector
+Memory reset button
+Dark / Light mode toggle
+Custom animated typing text (SALVIN branding)
+Themed UI (Dark & Light modes)
 
 ## 🛡 Security & Best Practices
 
@@ -88,11 +75,7 @@ Chat export feature
 Multi-user session memory
 
 
-👨‍💻 Author- Fayaz Ali Muktadir
 
-Project Name: SALVIN – Personal AI Assistant
-Built for: Learning Project
-Focus Areas: OOP, AI Integration, UI Design, Clean Architecture
 ### Run
 ```bash
 pip install -r requirements.txt

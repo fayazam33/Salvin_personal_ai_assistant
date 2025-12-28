@@ -94,5 +94,61 @@
   {
     "role": "assistant",
     "message": "\u26a0\ufe0f Gemini Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+  },
+  {
+    "role": "user",
+    "message": "hello "
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: Models.generate_content() got an unexpected keyword argument 'generation_config'"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: Models.generate_content() got an unexpected keyword argument 'max_output_tokens'"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: module 'google.genai' has no attribute 'GenerationConfig'"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: Models.generate_content() got an unexpected keyword argument 'messages'"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: Models.generate_content() missing 1 required keyword-only argument: 'contents'"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  },
+  {
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f SALVIN is currently busy. Please wait a moment and try again."
   }
 ]

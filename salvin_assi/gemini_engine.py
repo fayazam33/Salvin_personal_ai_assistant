@@ -7,15 +7,12 @@ class GeminiEngine:
 
     def generate(self, prompt: str) -> str:
         try:
+            
             response = self.client.models.generate_content(
-                model="gemini-1.5-flash",
-                contents=prompt,
-                generation_config={
-                    "max_output_tokens": 512,
-                    "temperature": 0.6
-                }
+                model="gemini-2.5-flash",
+                contents=prompt
             )
-            return response.text.strip()
+            return response.text
 
         except Exception as e:
             error_msg = str(e)

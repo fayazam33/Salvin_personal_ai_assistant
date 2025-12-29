@@ -150,5 +150,45 @@
   {
     "role": "assistant",
     "message": "\u26a0\ufe0f SALVIN is currently busy. Please wait a moment and try again."
+  },
+  {
+    "role": "user",
+    "message": "Hello salvin"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f SALVIN is currently busy. Please wait a moment and try again."
+  },
+  {
+    "role": "user",
+    "message": "hello salvin"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
+  },
+  {
+    "role": "user",
+    "message": "hello salvin"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  },
+  {
+    "role": "user",
+    "message": "hello salvin"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-native-audio-dialog is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  },
+  {
+    "role": "user",
+    "message": "what is c++"
+  },
+  {
+    "role": "assistant",
+    "message": "\u26a0\ufe0f Gemini Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}"
   }
 ]

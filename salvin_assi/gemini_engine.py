@@ -9,7 +9,7 @@ class GeminiEngine:
         try:
             
             response = self.client.models.generate_content(
-                model="gemini-2.5-flash",
+                model="gemini-2.5-flash-lite",
                 contents=prompt
             )
             return response.text
@@ -17,8 +17,8 @@ class GeminiEngine:
         except Exception as e:
             error_msg = str(e)
 
-            if "429" in error_msg:
-                time.sleep(2)  
-                return "⚠️ SALVIN is currently busy. Please wait a moment and try again."
+            # if "429" in error_msg:
+                 
+            #     return "⚠️ SALVIN is currently busy. Please wait a moment and try again."
 
             return f"⚠️ Gemini Error: {error_msg}"
